@@ -1,0 +1,34 @@
+//base
+GET http://localhost:3000/books HTTP/1.1
+
+
+//selecionar uno
+###
+GET http://localhost:3000/books/3 HTTP/1.1
+
+//agregar
+###
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Los ojos del perro siberiano",
+  "author": "Antonio Santa Ana",
+  "year": 1998
+}
+
+
+//cambios
+###
+PUT http://localhost:3000/books/3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "year": 1989
+}
+
+
+
+###
+DELETE http://localhost:3000/books/5 HTTP/1.1

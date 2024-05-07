@@ -1,0 +1,34 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "El señor de los anillos",
+            "author": "john tolkien",
+            "year": 1954
+        },
+        {
+            "id": 2,
+            "name": "Padre rico, padre pobr",
+            "author": "Robert Kyyosaki",
+            "year": 1997
+        },
+        {
+            "id": 3,
+            "name": "Los 7 hábitos de la gente altamente efectiva",
+            "author": "Stephen R. Covey",
+            "year": 1989
+        },
+        {
+            "id": 4,
+            "title": "Los ojos del perro siberiano",
+            "author": "Antonio Santa Ana",
+            "year": 1998
+        },
+        {
+            "id": 5,
+            "title": "Los ojos del perro siberiano",
+            "author": "Antonio Santa Ana",
+            "year": 1998
+        }
+    ]
+}
